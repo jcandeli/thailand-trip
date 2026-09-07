@@ -91,9 +91,10 @@ export default function TripMap({ activities, groups, focusId, onMapClick, pendi
       className={`trip-map ${onMapClick ? 'picking' : ''}`}
       scrollWheelZoom
     >
+      {/* Esri street map uses English labels worldwide; OSM default tiles show local Thai names. */}
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Source: Esri, OpenStreetMap'
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
       />
       <ClickHandler onMapClick={onMapClick} />
       <FitOnLoad activities={activities} />

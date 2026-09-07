@@ -52,24 +52,19 @@ export default function App() {
 
   return (
     <div className="app">
-      <header className="topbar">
-        <h1>Thailand trip</h1>
-        <Summary trip={trip} />
-        <div className="topbar-actions">
-          {EDITABLE ? (
-            <span className={`save-status ${saveStatus}`}>
-              {saveStatus === 'saving' && 'Saving…'}
-              {saveStatus === 'saved' && 'Saved to trip.json'}
-              {saveStatus === 'error' && 'Save failed (draft kept in browser)'}
-            </span>
-          ) : (
-            <span className="save-status">View only</span>
-          )}
-          <button onClick={exportJson} title="Download trip.json">
-            Export
-          </button>
+      <main className="panels">
+        <aside className="panel left">
           {EDITABLE && (
-            <>
+            <div className="panel-tools">
+              <span className={`save-status ${saveStatus}`}>
+                {saveStatus === 'saving' && 'Saving…'}
+                {saveStatus === 'saved' && 'Saved'}
+                {saveStatus === 'error' && 'Save failed'}
+                {saveStatus === 'idle' && 'Edit mode'}
+              </span>
+              <button onClick={exportJson} title="Download trip.json">
+                Export
+              </button>
               <button onClick={() => fileInput.current?.click()} title="Replace with a trip.json file">
                 Import
               </button>
@@ -84,13 +79,8 @@ export default function App() {
                   e.target.value = ''
                 }}
               />
-            </>
+            </div>
           )}
-        </div>
-      </header>
-
-      <main className="panels">
-        <aside className="panel left">
           {EDITABLE && !form && (
             <button className="primary wide" onClick={() => openForm({ mode: 'add' })}>
               + Add activity
@@ -134,6 +124,7 @@ export default function App() {
         </section>
 
         <aside className="panel right">
+          <Summary trip={trip} />
           <Calendar
             days={trip.days}
             groups={trip.groups}

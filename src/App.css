@@ -115,10 +115,19 @@
   }
 
   .panel.center {
+    order: 1;
     height: 28vh;
     min-height: 160px;
     max-height: 240px;
     flex-shrink: 0;
+  }
+
+  .panel.left {
+    order: 2;
+  }
+
+  .panel.right {
+    order: 3;
   }
 
   .panel.left,

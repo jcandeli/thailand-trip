@@ -218,6 +218,17 @@
         "label": "Huen Phen, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
       "id": "f461f726-57b8-4109-ba09-4c689197e38e"
+    },
+    {
+      "name": "Baan Kang Wat - viral khai soi",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsOtbQ5U0kbudkv46DcjdIkUl5xhP-QIeOAatCGUUu9Iqkn8yL4gmiga0&s=10",
+      "location": {
+        "lat": 18.7767499,
+        "lng": 98.9482643,
+        "label": "Baan Kang Wat, Suthep Subdistrict, Chiang Mai Province"
+      },
+      "id": "bc50b9cb-4f80-4a33-8519-17d748afd401"
     }
   ],
   "groups": [

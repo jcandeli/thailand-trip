@@ -7,11 +7,13 @@
     },
     {
       "index": 1,
-      "date": "2026-11-02"
+      "date": "2026-11-02",
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97"
     },
     {
       "index": 2,
-      "date": "2026-11-03"
+      "date": "2026-11-03",
+      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
     },
     {
       "index": 3,
@@ -74,7 +76,8 @@
         "lng": 98.9216,
         "label": "Wat Phra That Doi Suthep, Chiang Mai"
       },
-      "imageUrl": "https://www.aleenta.com/media/mg3flk3w/wat-phra-that-doi-suthep-in-chiang-mai.jpg?width=525&height=395&format=webp&v=1dcede8c20056f0"
+      "imageUrl": "https://www.aleenta.com/media/mg3flk3w/wat-phra-that-doi-suthep-in-chiang-mai.jpg?width=525&height=395&format=webp&v=1dcede8c20056f0",
+      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
     },
     {
       "name": "Chiang Rai White Temple",
@@ -165,7 +168,8 @@
         "lng": 98.934002,
         "label": "Wat Pha Lat, Suthep Subdistrict, Chiang Mai Province"
       },
-      "id": "d67e8d05-b36d-4907-a15e-67a727255035"
+      "id": "d67e8d05-b36d-4907-a15e-67a727255035",
+      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
     },
     {
       "name": "Sunday Market",
@@ -199,7 +203,8 @@
         "lng": 98.9525787,
         "label": "Wat Umong (Suan Buddha Dhamma), แขวงศรีวิชัย, Chiang Mai Province"
       },
-      "id": "5190842d-843e-45c4-bbb1-986851d42697"
+      "id": "5190842d-843e-45c4-bbb1-986851d42697",
+      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
     },
     {
       "name": "Huen Phen",
@@ -338,6 +343,11 @@
       "id": "f2dec519-646a-4401-b775-46b908d62fd4",
       "name": "Krabi Day 1",
       "color": "#f58231"
+    },
+    {
+      "id": "c575dead-cf71-4873-ac71-3443e85b10dd",
+      "name": "Farther Temples",
+      "color": "#911eb4"
     }
   ]
 }

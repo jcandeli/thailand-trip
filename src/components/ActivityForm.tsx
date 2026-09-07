@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import type { Activity, Group, Location } from '../types'
 import LocationSearch from './LocationSearch'
 
@@ -20,9 +20,12 @@ export default function ActivityForm({ initial, groups, pickedLocation, onSubmit
   const [groupId, setGroupId] = useState(initial?.groupId ?? '')
   const [location, setLocation] = useState<Location | null>(initial?.location ?? null)
 
-  useEffect(() => {
+  // Adopt a map-click location when a new one arrives (state-from-props during render).
+  const [prevPicked, setPrevPicked] = useState(pickedLocation)
+  if (pickedLocation !== prevPicked) {
+    setPrevPicked(pickedLocation)
     if (pickedLocation) setLocation(pickedLocation)
-  }, [pickedLocation])
+  }
 
   const canSubmit = name.trim().length > 0 && location !== null
 

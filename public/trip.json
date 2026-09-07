@@ -3,8 +3,7 @@
   "days": [
     {
       "index": 0,
-      "date": "2026-11-01",
-      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+      "date": "2026-11-01"
     },
     {
       "index": 1,
@@ -12,8 +11,7 @@
     },
     {
       "index": 2,
-      "date": "2026-11-03",
-      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
+      "date": "2026-11-03"
     },
     {
       "index": 3,
@@ -66,40 +64,6 @@
   ],
   "activities": [
     {
-      "id": "a1",
-      "name": "Grand Palace",
-      "description": "Former royal residence, Emerald Buddha temple.",
-      "location": {
-        "lat": 13.75,
-        "lng": 100.4913,
-        "label": "Grand Palace, Phra Nakhon, Bangkok"
-      },
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Grand_Palace_Bangkok%2C_Thailand.jpg/640px-Grand_Palace_Bangkok%2C_Thailand.jpg",
-      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
-    },
-    {
-      "id": "a2",
-      "name": "Wat Pho",
-      "description": "Reclining Buddha and massage school.",
-      "location": {
-        "lat": 13.7465,
-        "lng": 100.493,
-        "label": "Wat Pho, Phra Nakhon, Bangkok"
-      },
-      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
-    },
-    {
-      "id": "a3",
-      "name": "Wat Arun",
-      "description": "Temple of Dawn, across the river.",
-      "location": {
-        "lat": 13.7437,
-        "lng": 100.4888,
-        "label": "Wat Arun, Bangkok Yai, Bangkok"
-      },
-      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
-    },
-    {
       "id": "a4",
       "name": "Doi Suthep",
       "description": "Mountain temple overlooking Chiang Mai.",
@@ -107,8 +71,7 @@
         "lat": 18.8048,
         "lng": 98.9216,
         "label": "Wat Phra That Doi Suthep, Chiang Mai"
-      },
-      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+      }
     },
     {
       "id": "a5",
@@ -118,30 +81,126 @@
         "lat": 18.7883,
         "lng": 98.9853,
         "label": "Old City, Chiang Mai"
-      },
-      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+      }
     },
     {
-      "id": "a6",
-      "name": "Maya Bay",
-      "description": "Phi Phi Leh beach.",
+      "name": "Chiang Rai White Temple",
+      "description": "",
+      "imageUrl": "https://nomadicated.com/wp-content/uploads/2023/02/White-Temple-Chiang-Rai-7.jpg",
       "location": {
-        "lat": 7.6776,
-        "lng": 98.766,
-        "label": "Maya Bay, Ko Phi Phi, Krabi"
-      }
+        "lat": 19.8238794,
+        "lng": 99.7628959,
+        "label": "Wat Rong Khun - White Temple, Ban Rong Khun, Chiang Rai Province"
+      },
+      "groupId": "f5c0ce6b-e293-48a9-9814-850dc25146ac",
+      "id": "e37f203a-1c60-4a55-a7fa-cddeaaafbfa4"
+    },
+    {
+      "name": "Chiang Rai black temple",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVb9KRVVhZiTrirfK0T-crE4sv5usfSrWYHBnBvb_MYVqKmot3oeILdos&s=10",
+      "location": {
+        "lat": 19.9920756,
+        "lng": 99.8607194,
+        "label": "Main Sanctuary Hall, Ban Nang Lae, Chiang Rai Province"
+      },
+      "groupId": "f5c0ce6b-e293-48a9-9814-850dc25146ac",
+      "id": "e35d7758-7078-4785-842d-46e53c7e6c77"
+    },
+    {
+      "name": "Chiang Rai blue temple",
+      "description": "",
+      "imageUrl": "https://nomadicated.com/wp-content/uploads/2023/02/Blue-Temple-Chiang-Rai-7-1024x683.jpg",
+      "location": {
+        "lat": 19.923357,
+        "lng": 99.8417552,
+        "label": "Wat Rong Suea Ten, Huay Pla Kang, Chiang Rai City Municipality"
+      },
+      "groupId": "f5c0ce6b-e293-48a9-9814-850dc25146ac",
+      "id": "1b4a5d7a-813b-4414-8200-8a5983714d3e"
+    },
+    {
+      "name": "Khao Soi Mae Sai",
+      "description": "Best Khao Soi place",
+      "imageUrl": "https://thetravellist.net/food/thailand/images/large/khao-soi-mae-sai-1-ife.jpg",
+      "location": {
+        "lat": 18.799348328478178,
+        "lng": 98.97515416145325,
+        "label": "Ratchaphruek Road, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "id": "fbea56f8-79e5-4bda-9f23-66c26db893d8"
+    },
+    {
+      "name": "Tippanetr Thai Amulet Market",
+      "description": "",
+      "imageUrl": "https://travel2unlimited.com/wp-content/uploads/2017/02/3-6.jpg",
+      "location": {
+        "lat": 18.7699447,
+        "lng": 98.9813525,
+        "label": "50100, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "9d68fc71-a1d8-4ecb-bde5-8544a7b81502"
+    },
+    {
+      "name": "North Gate Night Food Market",
+      "description": "",
+      "location": {
+        "lat": 18.7962172,
+        "lng": 98.9858235,
+        "label": "Changpuak Market, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "id": "fad706a7-8196-47fd-bfc6-92dca9dd884d"
+    },
+    {
+      "name": "Sak Yant Chiang Mai | Traditional Thai Tattoo",
+      "description": "",
+      "imageUrl": "https://sakyantchiangmai.com/wp-content/uploads/Sak-Yant-Masters-Chiang-Mai.jpg",
+      "location": {
+        "lat": 18.7918186,
+        "lng": 98.9785289,
+        "label": "Sak Yant Chiang Mai, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "id": "78144454-9117-4953-a368-e44c4fd96b7b"
+    },
+    {
+      "name": "Wat Pha Lat",
+      "description": "",
+      "imageUrl": "https://www.thatonepointofview.com/wp-content/uploads/2025/01/Temple-in-the-Jungle-of-Chiang-Mai-Best-Temples-in-Chiang-Mai.jpg",
+      "location": {
+        "lat": 18.799226,
+        "lng": 98.934002,
+        "label": "Wat Pha Lat, Suthep Subdistrict, Chiang Mai Province"
+      },
+      "id": "d67e8d05-b36d-4907-a15e-67a727255035"
+    },
+    {
+      "name": "Sunday Market",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQ_DWbjA10wJuolzfO6eualUi0IMEDiXsmsnLeHWJCVHkWEGus4ICLnha&s=10",
+      "location": {
+        "lat": 18.7874469,
+        "lng": 98.9934455,
+        "label": "Thapae Gate, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "7ccfc6e6-f394-46d6-84e5-bf3a83d9dfbe"
+    },
+    {
+      "name": "Chinatown",
+      "description": "",
+      "imageUrl": "https://whattodoinchiangmai.com/wp-content/uploads/2023/05/IMG_7120-1024x768.webp",
+      "location": {
+        "lat": 18.81133,
+        "lng": 98.977993,
+        "label": "Chinatown, Chang Phueak, Chang Phueak Subdistrict"
+      },
+      "id": "e69c8564-1026-4c51-bb12-14aec74f65fa"
     }
   ],
   "groups": [
     {
-      "id": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55",
-      "name": "Bangkok temples",
+      "id": "f5c0ce6b-e293-48a9-9814-850dc25146ac",
+      "name": "Chiang Rai",
       "color": "#e6194b"
-    },
-    {
-      "id": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7",
-      "name": "Chiang Mai",
-      "color": "#3cb44b"
     }
   ]
 }

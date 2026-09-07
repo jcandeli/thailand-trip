@@ -59,7 +59,8 @@
     },
     {
       "index": 14,
-      "date": "2026-11-15"
+      "date": "2026-11-15",
+      "groupId": "0f28a637-19b9-4e32-8ffc-f4b224641ce8"
     }
   ],
   "activities": [
@@ -182,6 +183,7 @@
         "lng": 98.9934455,
         "label": "Thapae Gate, แขวงเม็งราย, Chiang Mai City Municipality"
       },
+      "groupId": "0f28a637-19b9-4e32-8ffc-f4b224641ce8",
       "id": "7ccfc6e6-f394-46d6-84e5-bf3a83d9dfbe"
     },
     {
@@ -189,11 +191,33 @@
       "description": "",
       "imageUrl": "https://whattodoinchiangmai.com/wp-content/uploads/2023/05/IMG_7120-1024x768.webp",
       "location": {
-        "lat": 18.81133,
-        "lng": 98.977993,
-        "label": "Chinatown, Chang Phueak, Chang Phueak Subdistrict"
+        "lat": 18.7906071,
+        "lng": 98.9988418,
+        "label": "Chinatown Arc, แขวงนครพิงค์, Chiang Mai City Municipality"
       },
       "id": "e69c8564-1026-4c51-bb12-14aec74f65fa"
+    },
+    {
+      "name": "Wat Umong",
+      "description": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_ancient_tunnel_U_Mong_temple_Chiang_Mai_Thailand_1_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "location": {
+        "lat": 18.7831026,
+        "lng": 98.9525787,
+        "label": "Wat Umong (Suan Buddha Dhamma), แขวงศรีวิชัย, Chiang Mai Province"
+      },
+      "id": "5190842d-843e-45c4-bbb1-986851d42697"
+    },
+    {
+      "name": "Huen Phen",
+      "description": "",
+      "imageUrl": "https://changpuakmagazine.com/images/article/132221Main_Slide_January2020-03.jpg",
+      "location": {
+        "lat": 18.7858382,
+        "lng": 98.9851584,
+        "label": "Huen Phen, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "id": "f461f726-57b8-4109-ba09-4c689197e38e"
     }
   ],
   "groups": [
@@ -201,6 +225,11 @@
       "id": "f5c0ce6b-e293-48a9-9814-850dc25146ac",
       "name": "Chiang Rai",
       "color": "#e6194b"
+    },
+    {
+      "id": "0f28a637-19b9-4e32-8ffc-f4b224641ce8",
+      "name": "Sunday",
+      "color": "#3cb44b"
     }
   ]
 }

@@ -1,0 +1,147 @@
+{
+  "startDate": "2026-11-01",
+  "days": [
+    {
+      "index": 0,
+      "date": "2026-11-01",
+      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+    },
+    {
+      "index": 1,
+      "date": "2026-11-02"
+    },
+    {
+      "index": 2,
+      "date": "2026-11-03",
+      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
+    },
+    {
+      "index": 3,
+      "date": "2026-11-04"
+    },
+    {
+      "index": 4,
+      "date": "2026-11-05"
+    },
+    {
+      "index": 5,
+      "date": "2026-11-06"
+    },
+    {
+      "index": 6,
+      "date": "2026-11-07"
+    },
+    {
+      "index": 7,
+      "date": "2026-11-08"
+    },
+    {
+      "index": 8,
+      "date": "2026-11-09"
+    },
+    {
+      "index": 9,
+      "date": "2026-11-10"
+    },
+    {
+      "index": 10,
+      "date": "2026-11-11"
+    },
+    {
+      "index": 11,
+      "date": "2026-11-12"
+    },
+    {
+      "index": 12,
+      "date": "2026-11-13"
+    },
+    {
+      "index": 13,
+      "date": "2026-11-14"
+    },
+    {
+      "index": 14,
+      "date": "2026-11-15"
+    }
+  ],
+  "activities": [
+    {
+      "id": "a1",
+      "name": "Grand Palace",
+      "description": "Former royal residence, Emerald Buddha temple.",
+      "location": {
+        "lat": 13.75,
+        "lng": 100.4913,
+        "label": "Grand Palace, Phra Nakhon, Bangkok"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Grand_Palace_Bangkok%2C_Thailand.jpg/640px-Grand_Palace_Bangkok%2C_Thailand.jpg",
+      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
+    },
+    {
+      "id": "a2",
+      "name": "Wat Pho",
+      "description": "Reclining Buddha and massage school.",
+      "location": {
+        "lat": 13.7465,
+        "lng": 100.493,
+        "label": "Wat Pho, Phra Nakhon, Bangkok"
+      },
+      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
+    },
+    {
+      "id": "a3",
+      "name": "Wat Arun",
+      "description": "Temple of Dawn, across the river.",
+      "location": {
+        "lat": 13.7437,
+        "lng": 100.4888,
+        "label": "Wat Arun, Bangkok Yai, Bangkok"
+      },
+      "groupId": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55"
+    },
+    {
+      "id": "a4",
+      "name": "Doi Suthep",
+      "description": "Mountain temple overlooking Chiang Mai.",
+      "location": {
+        "lat": 18.8048,
+        "lng": 98.9216,
+        "label": "Wat Phra That Doi Suthep, Chiang Mai"
+      },
+      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+    },
+    {
+      "id": "a5",
+      "name": "Chiang Mai Old City",
+      "description": "Walk the moat, night bazaar.",
+      "location": {
+        "lat": 18.7883,
+        "lng": 98.9853,
+        "label": "Old City, Chiang Mai"
+      },
+      "groupId": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7"
+    },
+    {
+      "id": "a6",
+      "name": "Maya Bay",
+      "description": "Phi Phi Leh beach.",
+      "location": {
+        "lat": 7.6776,
+        "lng": 98.766,
+        "label": "Maya Bay, Ko Phi Phi, Krabi"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "66ee992b-dd3b-41d8-9f97-a7a81b9c7b55",
+      "name": "Bangkok temples",
+      "color": "#e6194b"
+    },
+    {
+      "id": "d4d7de16-2b12-423a-a83e-6dbef8f4e2f7",
+      "name": "Chiang Mai",
+      "color": "#3cb44b"
+    }
+  ]
+}

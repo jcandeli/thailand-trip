@@ -33,7 +33,7 @@ export default function Calendar({ days, groups, activities, startDate, editable
 
   const groupById = new Map(groups.map((g) => [g.id, g]))
   const activitiesOf = (gid: string) => activities.filter((a) => a.groupId === gid)
-  const scheduled = new Set(days.map((d) => d.groupId).filter(Boolean))
+  const scheduled = new Set(days.flatMap((d) => d.groupIds))
   const unscheduled = groups.filter((g) => !scheduled.has(g.id))
 
   function onDragStart(e: DragStartEvent) {
@@ -100,17 +100,22 @@ export default function Calendar({ days, groups, activities, startDate, editable
 
         <div className="days">
           {days.map((d) => {
-            const g = d.groupId ? groupById.get(d.groupId) : undefined
+            const dayGroups = d.groupIds.map((id) => groupById.get(id)).filter((g): g is Group => Boolean(g))
             return (
               <DayCell key={d.index} day={d} editable={editable}>
-                {g && (
-                  <GroupCard
-                    group={g}
-                    activities={activitiesOf(g.id)}
-                    editable={editable}
-                    onActivityClick={onActivityClick}
-                    onUnschedule={() => dispatch({ type: 'ASSIGN_GROUP_TO_DAY', groupId: g.id, dayIndex: null })}
-                  />
+                {dayGroups.length === 0 ? (
+                  <span className="muted small">free</span>
+                ) : (
+                  dayGroups.map((g) => (
+                    <GroupCard
+                      key={g.id}
+                      group={g}
+                      activities={activitiesOf(g.id)}
+                      editable={editable}
+                      onActivityClick={onActivityClick}
+                      onUnschedule={() => dispatch({ type: 'ASSIGN_GROUP_TO_DAY', groupId: g.id, dayIndex: null })}
+                    />
+                  ))
                 )}
               </DayCell>
             )
@@ -147,13 +152,14 @@ function Tray({ editable, children }: { editable: boolean; children: React.React
 
 function DayCell({ day, editable, children }: { day: Day; editable: boolean; children: React.ReactNode }) {
   const { setNodeRef, isOver } = useDroppable({ id: dayId(day.index), disabled: !editable })
+  const filled = day.groupIds.length > 0
   return (
-    <div ref={setNodeRef} className={`day ${isOver ? 'over' : ''} ${day.groupId ? 'filled' : 'empty'}`}>
+    <div ref={setNodeRef} className={`day ${isOver ? 'over' : ''} ${filled ? 'filled' : 'empty'}`}>
       <div className="day-label">
         <strong>Day {day.index + 1}</strong>
         <span className="muted">{formatDay(day.date)}</span>
       </div>
-      <div className="day-body">{children ?? <span className="muted small">free</span>}</div>
+      <div className="day-body">{children}</div>
     </div>
   )
 }

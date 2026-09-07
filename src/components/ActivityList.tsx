@@ -6,7 +6,7 @@ import type { Action } from '../store'
 interface Props {
   activities: Activity[]
   groups: Group[]
-  days: { index: number; groupId?: string }[]
+  days: { index: number; groupIds: string[] }[]
   editable: boolean
   selectedIds: Set<string>
   focusId: string | null
@@ -85,7 +85,7 @@ function GroupSection({
   const { editable, dispatch, days } = rest
   const [editing, setEditing] = useState(false)
   const [name, setName] = useState(group.name)
-  const day = days.find((d) => d.groupId === group.id)
+  const day = days.find((d) => d.groupIds.includes(group.id))
 
   function commit() {
     const trimmed = name.trim()

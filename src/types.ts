@@ -22,7 +22,7 @@ export interface Group {
 export interface Day {
   index: number
   date: string // ISO yyyy-mm-dd
-  groupId?: string
+  groupIds: string[]
 }
 
 export interface Trip {

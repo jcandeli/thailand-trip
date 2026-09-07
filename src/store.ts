@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
-import type { Activity, Group, Trip } from './types'
+import type { Activity, Day, Group, Trip } from './types'
 import { GROUP_COLORS } from './types'
-import { buildDays } from './lib/dates'
+import { addDays, buildDays } from './lib/dates'
 
 export const EDITABLE = import.meta.env.DEV
 const DRAFT_KEY = 'thailand-trip:draft'
@@ -68,7 +68,10 @@ export function reducer(state: Trip, action: Action): Trip {
         activities: state.activities.map((a) =>
           a.groupId === action.id ? { ...a, groupId: undefined } : a,
         ),
-        days: state.days.map((d) => (d.groupId === action.id ? { ...d, groupId: undefined } : d)),
+        days: state.days.map((d) => ({
+          ...d,
+          groupIds: d.groupIds.filter((id) => id !== action.id),
+        })),
       }
 
     case 'SET_ACTIVITY_GROUP':
@@ -80,18 +83,17 @@ export function reducer(state: Trip, action: Action): Trip {
       }
 
     case 'ASSIGN_GROUP_TO_DAY': {
-      const from = state.days.find((d) => d.groupId === action.groupId)
-      const fromIndex = from ? from.index : null
-      if (fromIndex === action.dayIndex) return state
-      const target = action.dayIndex === null ? undefined : state.days[action.dayIndex]
-      const displaced = target?.groupId
+      // A group lives on at most one day. Dropping onto a day adds it there
+      // (alongside any other groups); null returns it to the unscheduled tray.
       return {
         ...state,
         days: state.days.map((d) => {
-          if (d.index === action.dayIndex) return { ...d, groupId: action.groupId }
-          // Group left this day: if the target had an occupant, swap it in; otherwise clear.
-          if (d.index === fromIndex) return { ...d, groupId: displaced }
-          return d
+          const without = d.groupIds.filter((id) => id !== action.groupId)
+          if (action.dayIndex === d.index) {
+            if (d.groupIds.includes(action.groupId)) return d
+            return { ...d, groupIds: [...without, action.groupId] }
+          }
+          return without.length === d.groupIds.length ? d : { ...d, groupIds: without }
         }),
       }
     }
@@ -195,7 +197,16 @@ export function useTripStore() {
 /** Fill in anything missing so older/hand-edited files still load. */
 function normalize(t: Partial<Trip>): Trip {
   const startDate = t.startDate ?? EMPTY.startDate
-  const days = t.days && t.days.length > 0 ? t.days : buildDays(startDate, 15)
+  const rawDays = t.days && t.days.length > 0 ? t.days : buildDays(startDate, 15)
+  const days: Day[] = rawDays.map((d, i) => {
+    const legacy = d as Day & { groupId?: string }
+    const groupIds = legacy.groupIds ?? (legacy.groupId ? [legacy.groupId] : [])
+    return {
+      index: legacy.index ?? i,
+      date: legacy.date ?? addDays(startDate, i),
+      groupIds: [...groupIds],
+    }
+  })
   return {
     startDate,
     days,

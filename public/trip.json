@@ -4,67 +4,87 @@
     {
       "index": 0,
       "date": "2026-11-01",
-      "groupId": "b52c83ca-0373-434d-922b-7f264a7a75e9"
+      "groupIds": [
+        "b52c83ca-0373-434d-922b-7f264a7a75e9"
+      ]
     },
     {
       "index": 1,
       "date": "2026-11-02",
-      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97"
+      "groupIds": [
+        "719cda75-5a1e-4239-aae6-95e641fbcd97"
+      ]
     },
     {
       "index": 2,
       "date": "2026-11-03",
-      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
+      "groupIds": [
+        "c575dead-cf71-4873-ac71-3443e85b10dd"
+      ]
     },
     {
       "index": 3,
       "date": "2026-11-04",
-      "groupId": "f2dec519-646a-4401-b775-46b908d62fd4"
+      "groupIds": [
+        "f2dec519-646a-4401-b775-46b908d62fd4"
+      ]
     },
     {
       "index": 4,
-      "date": "2026-11-05"
+      "date": "2026-11-05",
+      "groupIds": []
     },
     {
       "index": 5,
-      "date": "2026-11-06"
+      "date": "2026-11-06",
+      "groupIds": []
     },
     {
       "index": 6,
-      "date": "2026-11-07"
+      "date": "2026-11-07",
+      "groupIds": []
     },
     {
       "index": 7,
-      "date": "2026-11-08"
+      "date": "2026-11-08",
+      "groupIds": []
     },
     {
       "index": 8,
-      "date": "2026-11-09"
+      "date": "2026-11-09",
+      "groupIds": []
     },
     {
       "index": 9,
-      "date": "2026-11-10"
+      "date": "2026-11-10",
+      "groupIds": []
     },
     {
       "index": 10,
-      "date": "2026-11-11"
+      "date": "2026-11-11",
+      "groupIds": []
     },
     {
       "index": 11,
-      "date": "2026-11-12"
+      "date": "2026-11-12",
+      "groupIds": []
     },
     {
       "index": 12,
-      "date": "2026-11-13"
+      "date": "2026-11-13",
+      "groupIds": []
     },
     {
       "index": 13,
-      "date": "2026-11-14"
+      "date": "2026-11-14",
+      "groupIds": []
     },
     {
       "index": 14,
       "date": "2026-11-15",
-      "groupId": "0f28a637-19b9-4e32-8ffc-f4b224641ce8"
+      "groupIds": [
+        "0f28a637-19b9-4e32-8ffc-f4b224641ce8"
+      ]
     }
   ],
   "activities": [

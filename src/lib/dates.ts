@@ -30,7 +30,7 @@ export function formatDay(iso: string): string {
 export function buildDays(startDate: string, count: number, previous: Day[] = []): Day[] {
   const days: Day[] = []
   for (let i = 0; i < count; i++) {
-    days.push({ index: i, date: addDays(startDate, i), groupId: previous[i]?.groupId })
+    days.push({ index: i, date: addDays(startDate, i), groupIds: [...(previous[i]?.groupIds ?? [])] })
   }
   return days
 }

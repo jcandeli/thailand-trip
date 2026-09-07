@@ -15,7 +15,8 @@
     },
     {
       "index": 3,
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "groupId": "f2dec519-646a-4401-b775-46b908d62fd4"
     },
     {
       "index": 4,
@@ -281,6 +282,40 @@
       },
       "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
       "id": "ccebbac9-fca8-4ea1-9d6e-d756c5aa1ff7"
+    },
+    {
+      "name": "Wat Sri Suphan - Silver Temple",
+      "description": "",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1YEzWa48dgsqAqpIKmEI096gcohQ9sMN_K-cwBqwlXRyH7ZpFmaq-aqN0o5tPLyUiB_0zoj0g7cz5oLdmSeh9jNit2kYuhk0Fuft8b9OpVvn7cjTcocM7_4NCt_gAwNZm8A4a8g=s1360-w1360-h1020-rw",
+      "location": {
+        "lat": 18.7785379,
+        "lng": 98.9833197,
+        "label": "Wat Sri Suphan, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "9dd85ebe-6989-4628-bd8b-ee950cdb5321"
+    },
+    {
+      "name": "Wat Suan Dok",
+      "description": "",
+      "imageUrl": "https://thumbs.dreamstime.com/b/group-pagoda-wat-suan-dok-famous-temple-chiang-mai-thailand-located-city-very-old-known-its-large-number-white-244884002.jpg",
+      "location": {
+        "lat": 18.7881559,
+        "lng": 98.967783,
+        "label": "Wat Suan Dok Monk Chat, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "id": "ee815320-973e-4859-9f3d-4e2c52ebbaa2"
+    },
+    {
+      "name": "Rai Le Beach",
+      "description": "",
+      "imageUrl": "https://www.awaygowe.com/wp-content/uploads/2024/07/railay-beach-32-dsc_7836.jpg",
+      "location": {
+        "lat": 8.0115367,
+        "lng": 98.8377869,
+        "label": "Ao Rai Le, Ban Ao Nang, Krabi Province"
+      },
+      "groupId": "f2dec519-646a-4401-b775-46b908d62fd4",
+      "id": "c83fe4f2-0168-4446-9b7a-75a6df5789e7"
     }
   ],
   "groups": [
@@ -298,6 +333,11 @@
       "id": "719cda75-5a1e-4239-aae6-95e641fbcd97",
       "name": "Old City Temples",
       "color": "#4363d8"
+    },
+    {
+      "id": "f2dec519-646a-4401-b775-46b908d62fd4",
+      "name": "Krabi Day 1",
+      "color": "#f58231"
     }
   ]
 }

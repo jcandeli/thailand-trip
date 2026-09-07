@@ -3,7 +3,8 @@
   "days": [
     {
       "index": 0,
-      "date": "2026-11-01"
+      "date": "2026-11-01",
+      "groupId": "b52c83ca-0373-434d-922b-7f264a7a75e9"
     },
     {
       "index": 1,
@@ -124,7 +125,8 @@
         "lng": 98.97515416145325,
         "label": "Ratchaphruek Road, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
-      "id": "fbea56f8-79e5-4bda-9f23-66c26db893d8"
+      "id": "fbea56f8-79e5-4bda-9f23-66c26db893d8",
+      "groupId": "b52c83ca-0373-434d-922b-7f264a7a75e9"
     },
     {
       "name": "Tippanetr Thai Amulet Market",
@@ -135,7 +137,8 @@
         "lng": 98.9813525,
         "label": "50100, แขวงเม็งราย, Chiang Mai City Municipality"
       },
-      "id": "9d68fc71-a1d8-4ecb-bde5-8544a7b81502"
+      "id": "9d68fc71-a1d8-4ecb-bde5-8544a7b81502",
+      "groupId": "9677f47f-0911-4619-a668-8194a618c74d"
     },
     {
       "name": "North Gate Night Food Market",
@@ -297,6 +300,7 @@
         "lng": 98.9833197,
         "label": "Wat Sri Suphan, แขวงเม็งราย, Chiang Mai City Municipality"
       },
+      "groupId": "9677f47f-0911-4619-a668-8194a618c74d",
       "id": "9dd85ebe-6989-4628-bd8b-ee950cdb5321"
     },
     {
@@ -321,6 +325,18 @@
       },
       "groupId": "f2dec519-646a-4401-b775-46b908d62fd4",
       "id": "c83fe4f2-0168-4446-9b7a-75a6df5789e7"
+    },
+    {
+      "name": "One Nimman",
+      "description": "",
+      "imageUrl": "https://theglobalcurious.com/wp-content/uploads/2023/05/2023-05-13-One-Nimman-Chiang-Mai-2.jpg",
+      "location": {
+        "lat": 18.8001262,
+        "lng": 98.9680725,
+        "label": "One Nimman, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "b52c83ca-0373-434d-922b-7f264a7a75e9",
+      "id": "dc1ef5ab-dd9c-45e7-b983-a5f131aa1cf3"
     }
   ],
   "groups": [
@@ -348,6 +364,16 @@
       "id": "c575dead-cf71-4873-ac71-3443e85b10dd",
       "name": "Farther Temples",
       "color": "#911eb4"
+    },
+    {
+      "id": "9677f47f-0911-4619-a668-8194a618c74d",
+      "name": "South Stuff",
+      "color": "#42d4f4"
+    },
+    {
+      "id": "b52c83ca-0373-434d-922b-7f264a7a75e9",
+      "name": "North East Stuff",
+      "color": "#f032e6"
     }
   ]
 }

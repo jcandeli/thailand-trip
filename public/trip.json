@@ -72,17 +72,8 @@
         "lat": 18.8048,
         "lng": 98.9216,
         "label": "Wat Phra That Doi Suthep, Chiang Mai"
-      }
-    },
-    {
-      "id": "a5",
-      "name": "Chiang Mai Old City",
-      "description": "Walk the moat, night bazaar.",
-      "location": {
-        "lat": 18.7883,
-        "lng": 98.9853,
-        "label": "Old City, Chiang Mai"
-      }
+      },
+      "imageUrl": "https://www.aleenta.com/media/mg3flk3w/wat-phra-that-doi-suthep-in-chiang-mai.jpg?width=525&height=395&format=webp&v=1dcede8c20056f0"
     },
     {
       "name": "Chiang Rai White Temple",
@@ -150,7 +141,8 @@
         "lng": 98.9858235,
         "label": "Changpuak Market, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
-      "id": "fad706a7-8196-47fd-bfc6-92dca9dd884d"
+      "id": "fad706a7-8196-47fd-bfc6-92dca9dd884d",
+      "imageUrl": "https://catmotors.net/wp-content/uploads/2023/08/chiang-mai-gate-market.jpg"
     },
     {
       "name": "Sak Yant Chiang Mai | Traditional Thai Tattoo",
@@ -229,6 +221,66 @@
         "label": "Baan Kang Wat, Suthep Subdistrict, Chiang Mai Province"
       },
       "id": "bc50b9cb-4f80-4a33-8519-17d748afd401"
+    },
+    {
+      "name": "Wat Chedi Luang",
+      "description": "",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f3/be/75/restored-ruin-of-the.jpg?w=900&h=500&s=1",
+      "location": {
+        "lat": 18.7871427,
+        "lng": 98.986784,
+        "label": "Wat Chedi Luang, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "db503889-6388-4731-93e9-9e0e7934d5bb"
+    },
+    {
+      "name": "Wat Phra Singh",
+      "description": "",
+      "imageUrl": "https://www.renown-travel.com/images/wat-phra-singh-chiang-mai-l.jpg",
+      "location": {
+        "lat": 18.7882068,
+        "lng": 98.9813773,
+        "label": "Wat Phra Singh, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "dacffac7-c2a6-4913-8b3e-21ed215caa11"
+    },
+    {
+      "name": "Wat Saen Mueang Ma Luang",
+      "description": "",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2RVtt6JxI4Ne7EOzZD3gikLyUmJy_N9WPYd6ZsmF0efG07BpWzzTlR-KvEziPyzTvzklvQ4el7-h5zlSLjvj3_uolcOOgjglPlr1h26eivCGpQ_wKp5_qmgZg5eSiqADb_te2=s1360-w1360-h1020-rw",
+      "location": {
+        "lat": 18.7941155,
+        "lng": 98.9863433,
+        "label": "Wat Saen Mueang Ma Luang, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "32536276-f2ba-4a18-abb1-68545e7f9b83"
+    },
+    {
+      "name": "Wat Chiang Man",
+      "description": "",
+      "imageUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNutnqbVfxsgeGn-OeqccL7P5miznBpixKv3Eo018LKKpmmwig9q_mX3wKzGx9N1lQj5-4XlvQbRWB1Sc6owvIk8t1mFGKxcImzl-x2qd0zqWnyOWtVNC053cujvSRJCq7awXdVnSvaHWk0=s1360-w1360-h1020-rw",
+      "location": {
+        "lat": 18.7935584,
+        "lng": 98.9893792,
+        "label": "Wat Chiang Man, แขวงนครพิงค์, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "68513fce-f850-47f7-a98e-4e0852ce3767"
+    },
+    {
+      "name": "Wat Inthakhin Sadue Muang",
+      "description": "",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkcDGDbtcvO-X9thlPjI0MrUdspIveC7zkZECkFrPvrmwqtvR4c71VvFPjxp0p-yR3SczsdifrUTlxl1G_bBtvqAEQA3BT5lTAsLxjslb_W1Js3W5gPl4Oi_UqtUCOW7ZQEwqNRug=s1360-w1360-h1020-rw",
+      "location": {
+        "lat": 18.7895283,
+        "lng": 98.9870243,
+        "label": "Wat Inthakhin Sadue Muang, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "ccebbac9-fca8-4ea1-9d6e-d756c5aa1ff7"
     }
   ],
   "groups": [
@@ -241,6 +293,11 @@
       "id": "0f28a637-19b9-4e32-8ffc-f4b224641ce8",
       "name": "Sunday",
       "color": "#3cb44b"
+    },
+    {
+      "id": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "name": "Old City Temples",
+      "color": "#4363d8"
     }
   ]
 }

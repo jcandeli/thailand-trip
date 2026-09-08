@@ -67,7 +67,9 @@
     {
       "index": 11,
       "date": "2026-11-12",
-      "groupIds": []
+      "groupIds": [
+        "e21ad708-af18-407e-b029-1bf872741238"
+      ]
     },
     {
       "index": 12,
@@ -180,7 +182,8 @@
         "lng": 98.9785289,
         "label": "Sak Yant Chiang Mai, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
-      "id": "78144454-9117-4953-a368-e44c4fd96b7b"
+      "id": "78144454-9117-4953-a368-e44c4fd96b7b",
+      "groupId": "e21ad708-af18-407e-b029-1bf872741238"
     },
     {
       "name": "Wat Pha Lat",
@@ -227,18 +230,7 @@
         "label": "Wat Umong (Suan Buddha Dhamma), แขวงศรีวิชัย, Chiang Mai Province"
       },
       "id": "5190842d-843e-45c4-bbb1-986851d42697",
-      "groupId": "c575dead-cf71-4873-ac71-3443e85b10dd"
-    },
-    {
-      "name": "Huen Phen",
-      "description": "",
-      "imageUrl": "https://changpuakmagazine.com/images/article/132221Main_Slide_January2020-03.jpg",
-      "location": {
-        "lat": 18.7858382,
-        "lng": 98.9851584,
-        "label": "Huen Phen, แขวงศรีวิชัย, Chiang Mai City Municipality"
-      },
-      "id": "f461f726-57b8-4109-ba09-4c689197e38e"
+      "groupId": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6"
     },
     {
       "name": "Baan Kang Wat - viral khai soi",
@@ -249,7 +241,8 @@
         "lng": 98.9482643,
         "label": "Baan Kang Wat, Suthep Subdistrict, Chiang Mai Province"
       },
-      "id": "bc50b9cb-4f80-4a33-8519-17d748afd401"
+      "id": "bc50b9cb-4f80-4a33-8519-17d748afd401",
+      "groupId": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6"
     },
     {
       "name": "Wat Chedi Luang",
@@ -332,7 +325,8 @@
         "lng": 98.967783,
         "label": "Wat Suan Dok Monk Chat, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
-      "id": "ee815320-973e-4859-9f3d-4e2c52ebbaa2"
+      "id": "ee815320-973e-4859-9f3d-4e2c52ebbaa2",
+      "groupId": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6"
     },
     {
       "name": "Rai Le Beach",
@@ -357,6 +351,30 @@
       },
       "groupId": "b52c83ca-0373-434d-922b-7f264a7a75e9",
       "id": "dc1ef5ab-dd9c-45e7-b983-a5f131aa1cf3"
+    },
+    {
+      "name": "Kiat O Cha - Breakfast",
+      "description": "Khao man gai and stay breakfast",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/e2/b7/b6/img-20190818-121425-largejpg.jpg?w=1000&h=1000&s=1",
+      "location": {
+        "lat": 18.78963241894949,
+        "lng": 98.98606538772584,
+        "label": "Intrawarorot Road, แขวงศรีวิชัย, Chiang Mai City Municipality"
+      },
+      "groupId": "719cda75-5a1e-4239-aae6-95e641fbcd97",
+      "id": "67a25820-8f58-47c9-8422-47643efcf2ab"
+    },
+    {
+      "name": "Han Teung - Northern Thai restaurant",
+      "description": "",
+      "imageUrl": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=720/50PWLcPxbO883Q0nLVAjnUp2vvkS9Koq6",
+      "location": {
+        "lat": 18.7890294,
+        "lng": 98.9548314,
+        "label": "Han Teung Chiangmai, Suthep Subdistrict, Chiang Mai Province"
+      },
+      "groupId": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6",
+      "id": "bc04c6a0-ef78-47f9-a03e-929afd48c5af"
     }
   ],
   "groups": [
@@ -372,7 +390,7 @@
     },
     {
       "id": "719cda75-5a1e-4239-aae6-95e641fbcd97",
-      "name": "Old City Temples",
+      "name": "Old City Temples and food",
       "color": "#4363d8"
     },
     {
@@ -392,8 +410,18 @@
     },
     {
       "id": "b52c83ca-0373-434d-922b-7f264a7a75e9",
-      "name": "North East Stuff",
+      "name": "North West Stuff",
       "color": "#f032e6"
+    },
+    {
+      "id": "e21ad708-af18-407e-b029-1bf872741238",
+      "name": "Sak Yant",
+      "color": "#bfef45"
+    },
+    {
+      "id": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6",
+      "name": "West",
+      "color": "#fabed4"
     }
   ]
 }

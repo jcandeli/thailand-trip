@@ -408,6 +408,17 @@
         "label": "Kampaengdin Road, แขวงเม็งราย, Chiang Mai City Municipality"
       },
       "id": "78ed3ef3-ac88-4ca2-8b92-27b0078ee07f"
+    },
+    {
+      "name": "Chiang Mai Gate",
+      "description": "Tons of food at night",
+      "imageUrl": "https://www.kupi.com/kland-storage/images/670x0/30x30/attractions/th/chiang-mai/chiang-mai-gate-market/6cdb30b3-5532-4c7b-8c1f-aabb1e72f68d.webp",
+      "location": {
+        "lat": 18.7813553,
+        "lng": 98.9889812,
+        "label": "Chiang Mai Gate, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "a28f66e8-7297-43ca-8a1d-0d93bb62bd74"
     }
   ],
   "groups": [

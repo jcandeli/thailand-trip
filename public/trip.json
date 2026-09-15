@@ -375,6 +375,39 @@
       },
       "groupId": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6",
       "id": "bc04c6a0-ef78-47f9-a03e-929afd48c5af"
+    },
+    {
+      "name": "Warorot Market",
+      "description": "https://migrationology.com/warorot-market-chiang-mai/",
+      "imageUrl": "https://catmotors.net/wp-content/uploads/2023/01/warorots-market-floors.jpg",
+      "location": {
+        "lat": 18.7902357,
+        "lng": 99.000535,
+        "label": "Warorot Market, แขวงนครพิงค์, Chiang Mai City Municipality"
+      },
+      "id": "a071532f-c6b8-47b2-8c5b-cdf3a97cbbe8"
+    },
+    {
+      "name": "Aroon Rai",
+      "description": "Anthony Bourdain went here",
+      "location": {
+        "lat": 18.7862518,
+        "lng": 98.9935495,
+        "label": "Aroon Rai, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "1d728229-706e-4e55-a431-150121b8b979",
+      "imageUrl": "https://kochgenossen.com/wp-content/uploads/2023/01/AroonRai1-1280x640.jpg"
+    },
+    {
+      "name": "Mae Kha Canal",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-sK2dEhRbyoRwhf9VrzqJh6aRLzQdzFVqQNiplekPmZM_6ExuqDOWY8&s=10",
+      "location": {
+        "lat": 18.777341915647888,
+        "lng": 98.99534046649934,
+        "label": "Kampaengdin Road, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "id": "78ed3ef3-ac88-4ca2-8b92-27b0078ee07f"
     }
   ],
   "groups": [

@@ -4,8 +4,15 @@ import L from 'leaflet'
 import type { Activity, Group, Location } from '../types'
 import { UNGROUPED_COLOR } from '../types'
 
-const THAILAND_CENTER: [number, number] = [13.5, 101.0]
-const THAILAND_ZOOM = 6
+/** Old city / moat — used when there are no local pins to fit. */
+const CHIANG_MAI_CENTER: [number, number] = [18.7883, 98.9863]
+const CHIANG_MAI_ZOOM = 13
+
+/** Greater Chiang Mai city (Doi Suthep through Warorot). Drops Chiang Rai, Krabi, etc. */
+function inChiangMai(a: Activity): boolean {
+  const { lat, lng } = a.location
+  return lat >= 18.7 && lat <= 18.9 && lng >= 98.85 && lng <= 99.1
+}
 
 interface Props {
   activities: Activity[]
@@ -63,15 +70,20 @@ function FlyTo({ target }: { target: Activity | undefined }) {
   return null
 }
 
-/** On first render, zoom to fit all activities (falls back to the Thailand default). */
+/** On first render, zoom to Chiang Mai pins only (ignores the rest of Thailand). */
 function FitOnLoad({ activities }: { activities: Activity[] }) {
   const map = useMap()
   const done = useRef(false)
   useEffect(() => {
-    if (done.current || activities.length === 0) return
+    if (done.current) return
     done.current = true
-    const bounds = L.latLngBounds(activities.map((a) => [a.location.lat, a.location.lng] as [number, number]))
-    map.fitBounds(bounds.pad(0.2), { maxZoom: 12 })
+    const local = activities.filter(inChiangMai)
+    if (local.length === 0) {
+      map.setView(CHIANG_MAI_CENTER, CHIANG_MAI_ZOOM)
+      return
+    }
+    const bounds = L.latLngBounds(local.map((a) => [a.location.lat, a.location.lng] as [number, number]))
+    map.fitBounds(bounds.pad(0.15), { maxZoom: 14 })
   }, [activities, map])
   return null
 }
@@ -86,8 +98,8 @@ export default function TripMap({ activities, groups, focusId, onMapClick, pendi
 
   return (
     <MapContainer
-      center={THAILAND_CENTER}
-      zoom={THAILAND_ZOOM}
+      center={CHIANG_MAI_CENTER}
+      zoom={CHIANG_MAI_ZOOM}
       className={`trip-map ${onMapClick ? 'picking' : ''}`}
       scrollWheelZoom
     >

@@ -5,7 +5,8 @@
       "index": 0,
       "date": "2026-11-01",
       "groupIds": [
-        "b52c83ca-0373-434d-922b-7f264a7a75e9"
+        "b52c83ca-0373-434d-922b-7f264a7a75e9",
+        "37a578c7-4977-4d0c-8eab-991633392d82"
       ]
     },
     {
@@ -47,7 +48,9 @@
     {
       "index": 7,
       "date": "2026-11-08",
-      "groupIds": []
+      "groupIds": [
+        "3dafaa34-7230-4402-a619-d642d47f4312"
+      ]
     },
     {
       "index": 8,
@@ -62,7 +65,9 @@
     {
       "index": 10,
       "date": "2026-11-11",
-      "groupIds": []
+      "groupIds": [
+        "5abed8e4-b8bf-422b-a2d9-9f56dd35d468"
+      ]
     },
     {
       "index": 11,
@@ -171,7 +176,8 @@
         "label": "Changpuak Market, แขวงศรีวิชัย, Chiang Mai City Municipality"
       },
       "id": "fad706a7-8196-47fd-bfc6-92dca9dd884d",
-      "imageUrl": "https://catmotors.net/wp-content/uploads/2023/08/chiang-mai-gate-market.jpg"
+      "imageUrl": "https://catmotors.net/wp-content/uploads/2023/08/chiang-mai-gate-market.jpg",
+      "groupId": "ab50f375-1495-43b0-aef4-33c84d7b9764"
     },
     {
       "name": "Sak Yant Chiang Mai | Traditional Thai Tattoo",
@@ -218,7 +224,8 @@
         "lng": 98.9988418,
         "label": "Chinatown Arc, แขวงนครพิงค์, Chiang Mai City Municipality"
       },
-      "id": "e69c8564-1026-4c51-bb12-14aec74f65fa"
+      "id": "e69c8564-1026-4c51-bb12-14aec74f65fa",
+      "groupId": "5abed8e4-b8bf-422b-a2d9-9f56dd35d468"
     },
     {
       "name": "Wat Umong",
@@ -385,7 +392,8 @@
         "lng": 99.000535,
         "label": "Warorot Market, แขวงนครพิงค์, Chiang Mai City Municipality"
       },
-      "id": "a071532f-c6b8-47b2-8c5b-cdf3a97cbbe8"
+      "id": "a071532f-c6b8-47b2-8c5b-cdf3a97cbbe8",
+      "groupId": "5abed8e4-b8bf-422b-a2d9-9f56dd35d468"
     },
     {
       "name": "Aroon Rai",
@@ -396,7 +404,8 @@
         "label": "Aroon Rai, แขวงเม็งราย, Chiang Mai City Municipality"
       },
       "id": "1d728229-706e-4e55-a431-150121b8b979",
-      "imageUrl": "https://kochgenossen.com/wp-content/uploads/2023/01/AroonRai1-1280x640.jpg"
+      "imageUrl": "https://kochgenossen.com/wp-content/uploads/2023/01/AroonRai1-1280x640.jpg",
+      "groupId": "ab50f375-1495-43b0-aef4-33c84d7b9764"
     },
     {
       "name": "Mae Kha Canal",
@@ -407,7 +416,8 @@
         "lng": 98.99534046649934,
         "label": "Kampaengdin Road, แขวงเม็งราย, Chiang Mai City Municipality"
       },
-      "id": "78ed3ef3-ac88-4ca2-8b92-27b0078ee07f"
+      "id": "78ed3ef3-ac88-4ca2-8b92-27b0078ee07f",
+      "groupId": "37a578c7-4977-4d0c-8eab-991633392d82"
     },
     {
       "name": "Chiang Mai Gate",
@@ -418,7 +428,80 @@
         "lng": 98.9889812,
         "label": "Chiang Mai Gate, แขวงเม็งราย, Chiang Mai City Municipality"
       },
-      "id": "a28f66e8-7297-43ca-8a1d-0d93bb62bd74"
+      "id": "a28f66e8-7297-43ca-8a1d-0d93bb62bd74",
+      "groupId": "37a578c7-4977-4d0c-8eab-991633392d82"
+    },
+    {
+      "name": "Neng Claypot Roasted Pork",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3R4dMzrkUJwE35ZTtQb8qadgn_07plGqmsbr0QMTZbcJg4ujpsdOAE0E&s=10",
+      "location": {
+        "lat": 18.79969777464451,
+        "lng": 99.00472283363344,
+        "label": "Charoenrat Road, แขวงกาวิละ, Chiang Mai City Municipality"
+      },
+      "id": "da80b61b-f7a1-41ae-b62c-c66008766c07",
+      "groupId": "ab50f375-1495-43b0-aef4-33c84d7b9764"
+    },
+    {
+      "name": "Tiger Cave Temple",
+      "description": "",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b0/6c/a1/by-sergi-tkachuk-taken.jpg?w=1200&h=1200&s=1",
+      "location": {
+        "lat": 8.12617,
+        "lng": 98.9227845,
+        "label": "Tiger Cave Mountain Temple, Ban Khao Tang , Krabi Province"
+      },
+      "groupId": "3dafaa34-7230-4402-a619-d642d47f4312",
+      "id": "1394c35c-4ae8-4a8c-a2c8-ae06357414ed"
+    },
+    {
+      "name": "Maya Bay",
+      "description": "",
+      "imageUrl": "https://gretastravels.com/wp-content/uploads/2023/03/IMG_1181.jpg",
+      "location": {
+        "lat": 7.6766252,
+        "lng": 98.7661169,
+        "label": "Maya Bay, Mueang Krabi District, Ao Nang"
+      },
+      "groupId": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
+      "id": "0d9c0ad2-014c-4201-8095-7118f033f012"
+    },
+    {
+      "name": "Ko Hong",
+      "description": "",
+      "imageUrl": "https://i0.wp.com/postcardsbyhannah.com/wp-content/uploads/2026/03/hong-island-aerial-view.jpg?ssl=1",
+      "location": {
+        "lat": 8.0781357,
+        "lng": 98.677261,
+        "label": "Hong Island, Mueang Krabi District, Krabi Province"
+      },
+      "groupId": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
+      "id": "b95838ed-4f70-48e5-bd3d-9350f16b43c9"
+    },
+    {
+      "name": "Poda islan",
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQAcojFpX13Lnx8JhMUNUgfNldTR3EBji0-lu9gM_HmUhWEVaAm7a-J4&s=10",
+      "location": {
+        "lat": 7.9712751,
+        "lng": 98.8084777,
+        "label": "Poda, Mueang Krabi District, Krabi Province"
+      },
+      "groupId": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
+      "id": "2de82d73-1e51-453c-828f-6fcf3f6f3706"
+    },
+    {
+      "name": "pileh bay",
+      "description": "",
+      "imageUrl": "https://www.weseektravel.com/wp-content/uploads/2023/05/pileh-lagoon-thailand-1-2-1024x768.jpg",
+      "location": {
+        "lat": 7.6831001,
+        "lng": 98.7676773,
+        "label": "Pileh Lagoon, Mueang Krabi District, Ao Nang"
+      },
+      "groupId": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
+      "id": "a41d769a-1d23-4478-bc3f-e351b62a4b32"
     }
   ],
   "groups": [
@@ -466,6 +549,31 @@
       "id": "ecc5ad7e-4fe1-4de4-bbbd-c58aa21a53d6",
       "name": "West",
       "color": "#fabed4"
+    },
+    {
+      "id": "5abed8e4-b8bf-422b-a2d9-9f56dd35d468",
+      "name": "Riverside",
+      "color": "#469990"
+    },
+    {
+      "id": "37a578c7-4977-4d0c-8eab-991633392d82",
+      "name": "South",
+      "color": "#dcbeff"
+    },
+    {
+      "id": "3dafaa34-7230-4402-a619-d642d47f4312",
+      "name": "Krabi day 5",
+      "color": "#9a6324"
+    },
+    {
+      "id": "ab50f375-1495-43b0-aef4-33c84d7b9764",
+      "name": "Restaurants",
+      "color": "#800000"
+    },
+    {
+      "id": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
+      "name": "Islands",
+      "color": "#aaffc3"
     }
   ]
 }

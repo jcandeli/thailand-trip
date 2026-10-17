@@ -502,6 +502,18 @@
       },
       "groupId": "7c30dbb0-6e90-4376-9464-df4668e8b4e6",
       "id": "a41d769a-1d23-4478-bc3f-e351b62a4b32"
+    },
+    {
+      "name": "Midnight Sticky Rice and Chicken",
+      "description": "Recommended by Derek",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSShUtMcOIofBHqOYRQ2NCpvs1MjDx6F2Qkc4YsYgkNUA&s=10",
+      "location": {
+        "lat": 18.7793876,
+        "lng": 98.9977543,
+        "label": "Midnight Sticky Rice, แขวงเม็งราย, Chiang Mai City Municipality"
+      },
+      "groupId": "ab50f375-1495-43b0-aef4-33c84d7b9764",
+      "id": "570d9f28-45e5-435a-b4f2-f33d547489aa"
     }
   ],
   "groups": [
